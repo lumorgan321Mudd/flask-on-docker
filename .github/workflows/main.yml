@@ -29,7 +29,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: ./services/web
-          file: .services/web/Dockerfile
+          file: ./services/web/Dockerfile
           push: false
           load: false
           tags: dev-build:latest
